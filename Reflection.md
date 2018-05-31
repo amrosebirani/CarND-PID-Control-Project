@@ -22,8 +22,8 @@ As per the above document Started with all the parameters as 0. Then stepwize di
 
 # Importance of parameters
 
-1. Kp contributes to the proportional steering response for the cte. This has the most strongest effect on reducing the error and bringing back the vehicle on the requisite track. [Checkout the video with Kp set to 0.] (https://www.google.com) 
+1. Kp contributes to the proportional steering response for the cte. This has the most strongest effect on reducing the error and bringing back the vehicle on the requisite track. [Checkout the video with Kp set to 0.](https://github.com/amrosebirani/CarND-PID-Control-Project/blob/master/videos/Video_without_Kp.mov) 
 
-2. Kd contributes in stabilising the oscillations across the center line. If we remove this by setting it to 0, the vehicles oscillates a lot and ultimately drops out of the track. [Checkout the video with Kd set to 0 .] (https://www.google.com)
+2. Kd contributes in stabilising the oscillations across the center line. If we remove this by setting it to 0, the vehicles oscillates a lot and ultimately drops out of the track. [Checkout the video with Kd set to 0 .](https://github.com/amrosebirani/CarND-PID-Control-Project/blob/master/videos/Video_Without_Kd.mov)
 
-3. Ki counters other systemic errors like steering drift, but also generally smoothens the performance around curves etc. If we remove it we can see that the car constantly overshoots around curves and generally loses the track. [Checkout the video with Ki set to 0.] (https://www.google.com)
+3. Ki counters other systemic errors like steering drift, but also generally smoothens the performance around curves etc. If we remove it we can see that the car constantly overshoots around curves and generally loses the track. [Checkout the video with Ki set to 0.](https://github.com/amrosebirani/CarND-PID-Control-Project/blob/master/videos/Video_without_Ki.mov)
